@@ -1,7 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-int main(){
+
+
 
   int x1,x2,total;
 
