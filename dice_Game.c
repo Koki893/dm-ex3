@@ -4,7 +4,6 @@
 int main(){
 
   int x1,x2,total;
-  char name[55];
 
   srand(time(NULL));
   
@@ -12,6 +11,7 @@ int main(){
   x2 = (rand() % 6 + 1);
   total = x1 + x2;
 
+  char name[55];
   printf("What is your name?\n");
   scanf("%s",name);
   printf("> %s\n",name);
